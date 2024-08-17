@@ -30,12 +30,11 @@ if (isset($_SESSION['user-id'])) {
 <body>
     <nav>
         <div class="container nav__container">
-            <a href="<?= ROOT_URL ?>" class="nav__logo">EGATOR</a>
+            <a href="<?= ROOT_URL ?>" class="nav__logo">SCURRLIN</a>
             <ul class="nav__items">
+                <li><a href="<?= ROOT_URL ?>index.php">Home</a></li>
                 <li><a href="<?= ROOT_URL ?>blog.php">Blog</a></li>
                 <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
-                <li><a href="<?= ROOT_URL ?>services.php">Services</a></li>
-                <li><a href="<?= ROOT_URL ?>contact.php">Contact</a></li>
                 <?php if (isset($_SESSION['user-id'])) : ?>
                     <li class="nav__profile">
                         <div class="avatar">
@@ -47,7 +46,7 @@ if (isset($_SESSION['user-id'])) {
                         </ul>
                     </li>
                 <?php else : ?>
-                    <li><a href="<?= ROOT_URL ?>signin.php">Signin</a></li>
+                    <li><a href="<?= ROOT_URL ?>signin.php">Sign In</a></li>
                 <?php endif ?>
             </ul>
 

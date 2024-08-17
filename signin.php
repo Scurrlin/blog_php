@@ -50,7 +50,7 @@ unset($_SESSION['signin-data']);
                 <input type="text" name="username_email" value="<?= $username_email ?>" placeholder="Username or Email">
                 <input type="password" name="password" value="<?= $password ?>" placeholder="Password">
                 <button type="submit" name="submit" class="btn">Sign In</button>
-                <small>Don't have account? <a href="signup.php">Sign Up</a></small>
+                <small>Don't Have an Account? <a href="signup.php">Sign Up Here!</a></small>
             </form>
         </div>
     </section>
