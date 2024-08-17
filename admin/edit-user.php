@@ -12,8 +12,6 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-
-
 <section class="form__section">
     <div class="container form__section-container">
         <h2>Edit User</h2>
@@ -29,7 +27,6 @@ if (isset($_GET['id'])) {
         </form>
     </div>
 </section>
-
 
 <?php
 include '../partials/footer.php';

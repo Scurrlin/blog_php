@@ -7,9 +7,6 @@ $query = "SELECT id, title, category_id FROM posts WHERE author_id=$current_user
 $posts = mysqli_query($connection, $query);
 ?>
 
-
-
-
 <section class="dashboard">
     <?php if (isset($_SESSION['add-post-success'])) : // shows if add post was successful
     ?>
@@ -123,7 +120,6 @@ $posts = mysqli_query($connection, $query);
         </main>
     </div>
 </section>
-
 
 <?php
 include '../partials/footer.php';

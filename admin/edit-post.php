@@ -5,7 +5,6 @@ include 'partials/header.php';
 $category_query = "SELECT * FROM categories";
 $categories = mysqli_query($connection, $category_query);
 
-
 // fetch post data from database if id is set
 if (isset($_GET['id'])) {
     $id = filter_var($_GET['id'], FILTER_SANITIZE_NUMBER_INT);
@@ -17,8 +16,6 @@ if (isset($_GET['id'])) {
     die();
 }
 ?>
-
-
 
 <section class="form__section">
     <div class="container form__section-container">
@@ -45,7 +42,6 @@ if (isset($_GET['id'])) {
         </form>
     </div>
 </section>
-
 
 <?php
 include '../partials/footer.php';

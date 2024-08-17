@@ -7,7 +7,6 @@ $password = $_SESSION['signin-data']['password'] ?? null;
 unset($_SESSION['signin-data']);
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +25,6 @@ unset($_SESSION['signin-data']);
 </head>
 
 <body>
-
 
     <section class="form__section">
         <div class="container form__section-container">
@@ -56,7 +54,6 @@ unset($_SESSION['signin-data']);
             </form>
         </div>
     </section>
-
 
 </body>
 

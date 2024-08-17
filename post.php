@@ -13,8 +13,6 @@ if (isset($_GET['id'])) {
 }
 ?>
 
-
-
 <section class="singlepost">
     <div class="container singlepost__container">
         <h2><?= $post['title'] ?></h2>
@@ -46,10 +44,6 @@ if (isset($_GET['id'])) {
     </div>
 </section>
 <!--====================== END OF SINGLE POST ====================-->
-
-
-
-
 
 <?php
 include 'partials/footer.php';

@@ -8,9 +8,6 @@ $query = "SELECT * FROM users WHERE NOT id=$current_admin_id";
 $users = mysqli_query($connection, $query);
 ?>
 
-
-
-
 <section class="dashboard">
     <?php if (isset($_SESSION['add-user-success'])) : // shows if add user was successful
     ?>
@@ -129,7 +126,6 @@ $users = mysqli_query($connection, $query);
         </main>
     </div>
 </section>
-
 
 <?php
 include '../partials/footer.php';

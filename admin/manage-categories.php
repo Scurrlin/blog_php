@@ -6,9 +6,6 @@ $query = "SELECT * FROM categories ORDER BY title";
 $categories = mysqli_query($connection, $query);
 ?>
 
-
-
-
 <section class="dashboard">
 
     <?php if (isset($_SESSION['add-category-success'])) : // shows if add category was successful
@@ -124,8 +121,6 @@ $categories = mysqli_query($connection, $query);
         </main>
     </div>
 </section>
-
-
 
 <?php
 include '../partials/footer.php';

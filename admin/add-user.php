@@ -13,8 +13,6 @@ $confirmpassword = $_SESSION['add-user-data']['confirmpassword'] ?? null;
 unset($_SESSION['add-user-data']);
 ?>
 
-
-
 <section class="form__section">
     <div class="container form__section-container">
         <h2>Add User</h2>
@@ -47,8 +45,6 @@ unset($_SESSION['add-user-data']);
         </form>
     </div>
 </section>
-
-
 
 <?php
 include '../partials/footer.php';

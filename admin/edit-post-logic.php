@@ -54,7 +54,6 @@ if (isset($_POST['submit'])) {
         }
     }
 
-
     if ($_SESSION['edit-post']) {
         // redirect to manage form page if form was invalid
         header('location: ' . ROOT_URL . 'admin/');
@@ -72,7 +71,6 @@ if (isset($_POST['submit'])) {
         $query = "UPDATE posts SET title='$title', body='$body', thumbnail='$thumbnail_to_insert', category_id=$category_id, is_featured=$is_featured WHERE id=$id LIMIT 1";
         $result = mysqli_query($connection, $query);
     }
-
 
     if (!mysqli_errno($connection)) {
         $_SESSION['edit-post-success'] = "Post updated successfully";

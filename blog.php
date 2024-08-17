@@ -1,13 +1,10 @@
 <?php
 include 'partials/header.php';
 
-
 // fetch all posts from posts table
 $query = "SELECT * FROM posts ORDER BY date_time DESC";
 $posts = mysqli_query($connection, $query);
 ?>
-
-
 
 <section class="search__bar">
     <form class="container search__bar-container" action="<?= ROOT_URL ?>search.php" method="GET">
@@ -19,12 +16,6 @@ $posts = mysqli_query($connection, $query);
     </form>
 </section>
 <!--====================== END OF SEARCH ====================-->
-
-
-
-
-
-
 
 <section class="posts <?= $featured ? '' : 'section__extra-margin' ?>">
     <div class="container posts__container">
@@ -74,9 +65,6 @@ $posts = mysqli_query($connection, $query);
 </section>
 <!--====================== END OF POSTS ====================-->
 
-
-
-
 <section class="category__buttons">
     <div class="container category__buttons-container">
         <?php
@@ -89,9 +77,6 @@ $posts = mysqli_query($connection, $query);
     </div>
 </section>
 <!--====================== END OF CATEGORY BUTTONS ====================-->
-
-
-
 
 <?php
 include 'partials/footer.php';

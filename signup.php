@@ -12,7 +12,6 @@ $confirmpassword = $_SESSION['signup-data']['confirmpassword'] ?? null;
 unset($_SESSION['signup-data']);
 ?>
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,7 +30,6 @@ unset($_SESSION['signup-data']);
 </head>
 
 <body>
-
 
     <section class="form__section">
         <div class="container form__section-container">
@@ -61,7 +59,6 @@ unset($_SESSION['signup-data']);
             </form>
         </div>
     </section>
-
 
 </body>
 

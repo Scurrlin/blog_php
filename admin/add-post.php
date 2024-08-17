@@ -13,8 +13,6 @@ $body = $_SESSION['add-post-data']['body'] ?? null;
 unset($_SESSION['add-post-data']);
 ?>
 
-
-
 <section class="form__section">
     <div class="container form__section-container">
         <h2>Add Post</h2>
@@ -49,7 +47,6 @@ unset($_SESSION['add-post-data']);
         </form>
     </div>
 </section>
-
 
 <?php
 include '../partials/footer.php';

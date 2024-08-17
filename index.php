@@ -11,7 +11,6 @@ $query = "SELECT * FROM posts ORDER BY date_time DESC LIMIT 9";
 $posts = mysqli_query($connection, $query);
 ?>
 
-
 <!-- show featured post if there's any -->
 <?php if (mysqli_num_rows($featured_result) == 1) : ?>
     <section class="featured">
@@ -56,10 +55,6 @@ $posts = mysqli_query($connection, $query);
     </section>
 <?php endif ?>
 <!--====================== END OF FEATURED ====================-->
-
-
-
-
 
 <section class="posts <?= $featured ? '' : 'section__extra-margin' ?>">
     <div class="container posts__container">
@@ -109,9 +104,6 @@ $posts = mysqli_query($connection, $query);
 </section>
 <!--====================== END OF POSTS ====================-->
 
-
-
-
 <section class="category__buttons">
     <div class="container category__buttons-container">
         <?php
@@ -124,9 +116,6 @@ $posts = mysqli_query($connection, $query);
     </div>
 </section>
 <!--====================== END OF CATEGORY BUTTONS ====================-->
-
-
-
 
 <?php
 

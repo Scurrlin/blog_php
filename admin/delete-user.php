@@ -33,9 +33,6 @@ if (isset($_GET['id'])) {
         }
     }
 
-
-
-
     // delete user from database
     $delete_user_query = "DELETE FROM users WHERE id=$id";
     $delete_user_result = mysqli_query($connection, $delete_user_query);

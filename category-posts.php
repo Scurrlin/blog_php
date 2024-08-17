@@ -1,7 +1,6 @@
 <?php
 include 'partials/header.php';
 
-
 // fetch posts if id is set
 if (isset($_GET['id'])) {
     $id = filter_var($_GET['id'], FILTER_SANITIZE_NUMBER_INT);
@@ -12,9 +11,6 @@ if (isset($_GET['id'])) {
     die();
 }
 ?>
-
-
-
 
 <header class="category__title">
     <h2>
@@ -29,8 +25,6 @@ if (isset($_GET['id'])) {
     </h2>
 </header>
 <!--====================== END OF CATEGORY TITLE ====================-->
-
-
 
 <?php if (mysqli_num_rows($posts) > 0) : ?>
     <section class="posts">
@@ -77,10 +71,6 @@ if (isset($_GET['id'])) {
 <?php endif ?>
 <!--====================== END OF POSTS ====================-->
 
-
-
-
-
 <section class="category__buttons">
     <div class="container category__buttons-container">
         <?php
@@ -93,8 +83,6 @@ if (isset($_GET['id'])) {
     </div>
 </section>
 <!--====================== END OF CATEGORY BUTTONS ====================-->
-
-
 
 <?php
 include 'partials/footer.php';

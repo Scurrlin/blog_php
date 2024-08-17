@@ -11,10 +11,6 @@ if (isset($_GET['search']) && isset($_GET['submit'])) {
 }
 ?>
 
-
-
-
-
 <?php if (mysqli_num_rows($posts) > 0) : ?>
     <section class="posts section__extra-margin">
         <div class="container posts__container">
@@ -69,8 +65,6 @@ if (isset($_GET['search']) && isset($_GET['submit'])) {
 <?php endif ?>
 <!--====================== END OF POSTS ====================-->
 
-
-
 <section class="category__buttons">
     <div class="container category__buttons-container">
         <?php
@@ -83,8 +77,5 @@ if (isset($_GET['search']) && isset($_GET['submit'])) {
     </div>
 </section>
 <!--====================== END OF CATEGORY BUTTONS ====================-->
-
-
-
 
 <?php include 'partials/footer.php' ?>
