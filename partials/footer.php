@@ -10,33 +10,33 @@
         <article>
             <h4>Entertainment</h4>
             <ul>
-                <li><a href="">Movies</a></li>
-                <li><a href="">Music</a></li>
-                <li><a href="">Art</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=5">Movies</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=11">Music</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=7">Art</a></li>
             </ul>
         </article>
         <article>
             <h4>Leisure</h4>
             <ul>
-                <li><a href="">Vacation Destinations</a></li>
-                <li><a href="">Travel</a></li>
-                <li><a href="">Food</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=2">Vacation Destinations</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=9">Travel</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=8">Food</a></li>
             </ul>
         </article>
         <article>
             <h4>News</h4>
             <ul>
-                <li><a href="">Science & Technology</a></li>
-                <li><a href="">Current Events</a></li>
-                <li><a href="">Finance</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=4">Science & Technology</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=12">Current Events</a></li>
+                <li><a href="<?= ROOT_URL ?>category-posts.php?id=10">Finance</a></li>
             </ul>
         </article>
         <article>
             <h4>More Links</h4>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">About</a></li>
+                <li><a href="<?= ROOT_URL ?>index.php">Home</a></li>
+                <li><a href="<?= ROOT_URL ?>blog.php">Blog</a></li>
+                <li><a href="<?= ROOT_URL ?>about.php">About</a></li>
             </ul>
         </article>
     </div>
