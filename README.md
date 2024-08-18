@@ -8,10 +8,9 @@ This repo contains the completed code for my first PHP project! The original sou
 ![Categories](https://i.imgur.com/cpqp6S7.png)
 ![Add User](https://i.imgur.com/0cX6ofr.png)
 ![Sign In](https://i.imgur.com/UArKnBK.png)
-![Manage Posts](https://i.imgur.com/rx2TQWw.png)
+![Manage Posts](https://i.imgur.com/Yji83Ga.png)
 ![Add Post](https://i.imgur.com/R1V284o.png)
 ![Manage Users](https://i.imgur.com/QpM8h3J.png)
-![SQL DB](https://i.imgur.com/kE0yr4O.png)
 
 ## Technologies Used
 * PHP
