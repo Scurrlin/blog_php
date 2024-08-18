@@ -1,7 +1,7 @@
 # PHP Blog
 This repo contains the completed code for my first PHP project! The original source code for the backend can be found in the description of [this video](https://www.youtube.com/watch?v=I010T-UvmRM&t=14110s) by [EGATOR](https://www.youtube.com/@EGATORTUTORIALS).
 
-![banner_image](https://i.imgur.com/h2NRGwL.png)
+![banner_image](https://i.imgur.com/huvqGIn.png)
 
 ## Image Gallery
 ![Footer](https://i.imgur.com/lywbtDv.png)
